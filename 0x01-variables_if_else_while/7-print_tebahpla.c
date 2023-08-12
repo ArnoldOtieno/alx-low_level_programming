@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Program that prints lowercase
+ * main - Program that prints lowercasie
  * alphabet in reverse
  * Return: returns zero for success
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	char myChar = 'z';
 
-	while (myChar <= 'a')
+	while (myChar >= 'a')
 	{
 		putchar(myChar);
 		myChar--;
