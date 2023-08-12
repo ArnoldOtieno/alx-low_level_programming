@@ -8,19 +8,13 @@
 */
 int main(void)
 {
-	char myChar = 'a';
+	char alpbt[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = 0;
 
-	while (myChar <= 'z')
+	while (i < 52)
 	{
-	putchar(myChar);
-	myChar++;
-	}
-	myChar = 'Z';
-
-	while (myChar <= 'Z')
-	{
-	putchar(myChar);
-	myChar++;
+	putchar(alpbt[i]);
+	i++;
 	}
 	putchar('\n');
 	return (0);
