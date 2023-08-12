@@ -8,10 +8,10 @@
 int main(void)
 {
 	char firstChar = 'a';
-	int n;
+	/*int n;*/
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	/*srand(time(0));*/
+	/*n = rand() - RAND_MAX / 2;*/
 	/* your code goes there */
 
 	while (firstChar <= 'z')
