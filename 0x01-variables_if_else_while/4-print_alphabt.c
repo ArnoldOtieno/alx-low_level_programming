@@ -1,21 +1,20 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 /**
- * main - print alphabets without q and e
- * Return: (0) success
- */
+ * main - The program prints alphabets
+ * in lowercase without e and q
+ * Return: return zero on success
+*/
 int main(void)
 {
-	char letter = 'a';
+	char alpbt[50] = "abcdfghijklmnoprstuvwxyz"
+	int i = 0;
 
-	while (letter <= 'z')
+	while (i < 50)
 	{
-	if (letter != 'e' && letter != 'e')
-	{
-	putchar(letter);
-	}
-	letter++;
+	putchar(alpbt[i]);
+	i++;
 	}
 	putchar('\n');
 	return (0);
