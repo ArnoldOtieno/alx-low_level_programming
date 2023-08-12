@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char alpbt[50] = "abcdfghijklmnoprstuvwxyz"
+	char alpbt[50] = "abcdfghijklmnoprstuvwxyz";
 	int i = 0;
 
 	while (i < 50)
