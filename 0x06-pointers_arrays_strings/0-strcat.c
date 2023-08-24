@@ -8,6 +8,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int string_length, y;
+
 	string_length = 0;
 
 	while (dest[string_length] != '\0')
