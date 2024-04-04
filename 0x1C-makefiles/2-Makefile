@@ -1,0 +1,10 @@
+# Recompiling only updated source files
+
+CC = gcc
+SRC = main.c school.c
+OBJ = ${SRC:%.c=%}
+NAME = school
+
+ALL: ${OBJ}
+	${CC} ${OBJ} -O ${NAME}
+
