@@ -6,5 +6,5 @@ OBJ = ${SRC:%.c=%}
 NAME = school
 
 ALL: ${OBJ}
-	${CC} ${OBJ} -O ${NAME}
+	${CC} ${OBJ} -o ${NAME}
 
